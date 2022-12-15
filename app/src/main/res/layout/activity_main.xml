@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_total_spots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total spots: " />
+
+        <TextView
+            android:id="@+id/text_occupied_spots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Occupied spots: " />
+
+        <TextView
+            android:id="@+id/text_available_spots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available spots: " />
+
+        <Button
+            android:id="@+id/button_add_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add car" />
+
+        <Button
+            android:id="@+id/button_remove_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove car" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
